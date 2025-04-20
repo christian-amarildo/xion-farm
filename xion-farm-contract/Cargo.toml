@@ -1,0 +1,24 @@
+[package]
+name = "xion-farm-contract"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+# CosmWasm
+cosmwasm-std = "0.16.0"
+cw-storage-plus = "0.7.0"
+
+# Criptografia e Assinaturas
+k256 = "0.9.4"
+ecdsa = "0.12.1"
+signature = "1.3.0"
+
+# Serde para serialização e desserialização
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+wasm-opt = "0.3"
+
+[package.metadata]
+# Metadados do pacote para gerar documentação ou outros fins
