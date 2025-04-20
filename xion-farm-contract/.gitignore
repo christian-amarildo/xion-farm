@@ -1,0 +1,24 @@
+# Diretórios gerados pelo Cargo (compilação)
+target/
+debug/
+
+# Arquivos de backup gerados pelo rustfmt
+*/.rs.bk
+
+# Arquivos de depuração do MSVC (gerados pelo rustc no Windows)
+*.pdb
+
+# Arquivos e pastas gerados por JetBrains (ex: RustRover)
+.idea/
+
+# Arquivos do Git Large File Storage (se necessário)
+*.bin
+*.tar.gz
+*.a
+*.so
+*.dylib
+*.wasm
+
+# Ignora arquivos de log e variáveis de ambiente
+*.log
+*.env
