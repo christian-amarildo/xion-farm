@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import { CheckCircle } from 'lucide-react';
 
 import { useState } from "react"
 import { useParams } from "next/navigation"
